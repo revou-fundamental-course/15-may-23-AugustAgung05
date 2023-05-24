@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h3>Katik</h3>
+        <p>Kalkulator Matematik</p>
+    </header>
+    <section id="content">
+        <div class="header-content">
+            <h3>Welcome to Katik</h3><br>
+            <p>Halo Kawan! Selamat datang di Katik!</p><br>
+            <p>Sebuah website yang berfungsi untuk menghitung nilai luas dan keliling sebuah <b>persegi</b></p>
+        </div>
+    </section>
+    <section id="navigation">
+        <div class="navigation-keliling">
+            <a href="#content-keliling">Keliling Persegi</a>
+        </div>
+        <div class="navigation-luas">
+            <a href="#content-luas">Keliling Luas</a>
+        </div>
+    </section>
+    <section id="content-keliling">
+        <div class="content-keliling-header">
+            <h3>Keliling Persegi</h3>
+        </div>
+        <div class="content-keliling-main">
+            <div class="img-persegi">
+                <img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+            </div>
+            <div class="content-keliling-main-hitung">
+                <p>Rumus Keliling Persegi yaitu :</p><br>
+                    <div class="rumus"> 
+                        <h5>K = 4 x S</h5>
+                    </div><br>
+                <p>Penjelasan :</p><br>
+                <p>K = Keliling</p><br>
+                <p>S = Sisi</p>
+            </div>
+            <div class="perhitungan">
+                <h3>Hitung Keliling Persegi</h3>
+                <input type="number" placeholder="Masukan Angka">
+                <button class="btn" onclick="hitungkeliling()">Hitung</button>
+                <button class="btn btn-rst" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </section>
+    <section id="content-luas">
+        <div class="content-luas-header">
+            <h3>Luas Persegi</h3>
+        </div>
+        <div class="content-luas-main">
+            <div class="img-persegi">
+                <img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+            </div>
+            <div class="content-luas-main-hitung">
+                <p>Rumus Luas Persegi yaitu :</p><br>
+                    <div class="rumus"> 
+                        <h5>K = S x S</h5>
+                    </div><br>
+                <p>Penjelasan :</p><br>
+                <p>L = Luas</p><br>
+                <p>S = Sisi</p>
+            </div>
+            <div class="perhitungan">
+                <h3>Hitung Luas Persegi</h3>
+                <input type="number" placeholder="Masukan Angka">
+                <button class="btn" onclick="hitungluas()">Hitung</button>
+                <button class="btn btn-rst" onclick="reset()">Reset</button>
+                <button type="submit">submit</button>
+            </div>
+        </div>
+    </section>
+    <script src="JS/script.js"></script>
+</body>
+</html>
