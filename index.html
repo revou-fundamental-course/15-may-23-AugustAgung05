@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="STYLE/style.css">
+</head>
+<body>
+    <header id="header">
+        <h3>Katik</h3>
+        <p>Kalkulator Matematik</p>
+    </header>
+    <section id="header-content">
+        <div class="header-h3">
+            <h3>Welcome to Katik</h3>
+        </div>
+        <div class="header-p">
+            <p>Halo Kawan! Selamat datang di Katik!</p>
+            <p>Sebuah website yang berfungsi untuk menghitung nilai luas dan keliling sebuah <b>persegi</b></p>
+        </div>
+    </section>
+    <section id="navigation">
+        <div class="navigation-a">
+            <a href="#hitungkeliling">Keliling Persegi</a>
+        </div>
+        <div class="navigation-a">
+            <a href="#hitungluas">Luas Persegi</a>
+        </div>
+    </section>
+    <section id="hitungkeliling" class="content">
+        <div class="content-header">
+            <h1>Keliling Persegi</h1>
+        </div>
+        <div class="content-keliling-main">
+            <div class="img-persegi">
+                <img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+            </div>
+            <div class="content-keliling-main-hitung">
+                <p>Rumus Keliling Persegi yaitu :</p><br>
+                    <div class="rumus"> 
+                        <h5>K = 4 x S</h5>
+                    </div><br>
+                <p>Penjelasan :</p><br>
+                <p>K = Keliling</p><br>
+                <p>S = Sisi</p>
+            </div>
+            <div class="perhitungan">
+                <div class="perhitungan-header">
+                    <h2>Hitung Keliling Persegi</h2>
+                </div>
+                <div class="tempat-perhitungan">
+                    <input id="hitungan" type="number" placeholder="Masukan Angka">
+                    <button class="btn" onclick="hitungkeliling()">Hitung</button>
+                </div>    
+                <div id="hasil-keliling"></div>
+            </div>
+        </div>
+    </section>
+    <section id="hitungluas"class="content content-1">
+        <div class="content-header">
+            <h2>Luas Persegi</h2>
+        </div>
+        <div class="content-luas-main">
+            <div class="img-persegi">
+                <img src="Resources/Gambar persegi.jpg" alt="Gambar Persegi">
+            </div>
+            <div class="content-luas-main-hitung">
+                <p>Rumus Luas Persegi yaitu :</p><br>
+                    <div class="rumus"> 
+                        <h5>K = S x S</h5>
+                    </div><br>
+                <p>Penjelasan :</p><br>
+                <p>L = Luas</p><br>
+                <p>S = Sisi</p>
+            </div>
+            <div class="perhitungan">
+                <div class="perhitungan-header">
+                    <h2>Hitung Luas Persegi</h2>
+                </div>
+                <div class="tempat-perhitungan">
+                    <input id="hitungan-luas" type="number" placeholder="Masukan Angka">
+                    <button class="btn" onclick="hitungluas()">Hitung</button>
+                </div>
+                <div id="hasil-luas"></div>
+            </div>
+        </div>
+    </section>
+    <!-- <footer>
+        <div class="footer">
+            <h2>Terimakasih telah mengunjungi website saya</h2>
+        </div>
+        <div class="social-footer">
+            <p>Tentang Saya</p>
+                <div class="social-footer-img">
+                    <a href="https://www.instagram.com/anandast.05/" target="_blank">
+                        <img src="Resources/instagram_icon.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/ananda-agung-styadi-a62654258/" target="_blank">
+                        <img src="Resources/linkedin_social_icon.png" alt="Linkdin"></a>
+                </div>
+        </div>
+    </footer> -->
+    <script src="JS/script.js"></script>
+</body>
+</html>
